@@ -1,0 +1,25 @@
+# Fichier .gitignore - Cadre Déterministe EHK / RS-MNK
+
+# Binaires compilés et bibliothèques dynamiques
+*.so
+*.o
+*.a
+run_cluster_ehk
+run_benchmark_ehk
+
+# Données d'acquisition et fichiers d'archives volumineux
+*.fits
+*.npy
+*.bin
+*.csv
+
+# Dossiers de rapports temporaires et caches de Frama-C / WP
+.frama-c/
+reports_scci/wp_coverage_html/
+frama_c_wp_report.log
+logs_scci/
+
+# Environnements virtuels Python locaux
+.venv/
+__pycache__/
+*.pyc
