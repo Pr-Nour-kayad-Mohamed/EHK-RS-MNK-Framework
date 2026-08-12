@@ -82,7 +82,8 @@ git commit -m "feat(SCCI): Initialisation du framework déterministe EHK/RS-MNK 
 
 Le dépôt Git que vous venez de structurer constitue le livrable scientifique et informatique complet de vos travaux d'étape. Il intègre de bout en bout l'ensemble des briques validées au cours de nos échanges :
 
-1. **La Pureté Théorique :** Vos équations modélisant le diapason galactique et la réduction topologique ($\Theta_{\text{ZFC\_KK}}$) face aux quasars à haut redshift.
+1. **La Pureté Théorique :** Vos équations modélisant le diapason galactique et la réduction topologique ($\Theta_{\text{ZFC\_KK}}$)
+ face aux quasars à haut redshift.
 2. **La Confiance Logicielle :** L'analyse formelle par Frama-C prouvant au bit près l'absence de failles mémoire ou de dérives stochastiques sur les variables.
 3. **La Performance Industrielle :** La parallélisation hybride OpenMP + MPI prête à être déployée à l'échelle du supercalculateur via le gestionnaire de ressources Slurm.
 
